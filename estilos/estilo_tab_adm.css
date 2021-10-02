@@ -1,0 +1,40 @@
+.container-table{
+    width: 90%;
+    background:#fff;
+    margin: 50px auto;
+box-shadow: 0 0 20px #333;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 50px;
+    
+
+}
+.table__title{
+    grid-column-start:1;
+    grid-column-end: 5;
+
+    background:#006271;
+    color:#fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.tabe__headder, .tabe__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tabe__headder{
+    font-weight: bold;
+    font-size: 20px;
+}
+.tabe__item{
+    padding: 10px;
+    font-size: 18px;
+
+}
