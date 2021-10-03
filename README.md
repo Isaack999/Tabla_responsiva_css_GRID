@@ -1,4 +1,4 @@
-# Tabla responsiva con CSS GRID
+# Tabla con CSS GRID
 https://isaack999.github.io/Tabla_responsiva_css_GRID/
 
 
